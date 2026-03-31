@@ -4,11 +4,6 @@ A modern, responsive portfolio website built to showcase my journey as a Data An
 
 🚀 Designed to highlight both my data analytics expertise and front-end development skills.
 
-📸 Preview
-
-🔗 Live Demo: (Add your deployed link here)
-📂 Repository: (You’re already here!)
-
 🚀 Features
 
 ✨ Fully Responsive Design
@@ -40,7 +35,6 @@ Quick access to download my resume
 🎨 Modern UI/UX
 Clean design with smooth animations and professional layout
 
-
 🎯 Purpose
 
 This portfolio serves as a central hub to:
@@ -53,5 +47,6 @@ Present my certifications and professional growth
 
 If you'd like to collaborate or have any opportunities, feel free to reach out:
 
-📧 Email: (magwaxazaomphile@gmail.com)
-💼 LinkedIn: (https://www.linkedin.com/in/omphile-magwaxaza-7a06302aa/)
+📧 Email: magwaxazaomphile@gmail.com
+
+💼 LinkedIn: https://www.linkedin.com/in/omphile-magwaxaza-7a06302aa/
