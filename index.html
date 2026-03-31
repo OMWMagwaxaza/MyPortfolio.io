@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/2a559eb53d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- HEADER SECTION -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Aspiring Data Analyst</p>
+                <h1>Hi, I'm <span>Omphile<br> Magwaxaza </span></h1>
+            </div>
+            <div class="header-cv">
+                <a href="CV & Certificates/Omphile Magwaxaza Cv.pdf" download class="btn-cv">
+                    <i class="fas fa-download"></i> Download CV
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- About SECTION -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/Background.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>vbnmbhjgvg.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <div class="skills-row">
+                            <div class="skills-column">
+                                <h3><span>Technical Skills</span></h3>
+                                <ul>
+                                    <li>Programming & Analysis: Python, R</li>
+                                    <li>Data Manipulation & Cleaning: pandas, NumPy</li>
+                                    <li>Data Visualization: Matplotlib, Seaborn, Excel charts, Pivot Tables</li>
+                                    <li>Tools & Environments: RStudio, Jupyter Notebook, Excel</li>
+                                </ul>
+                            </div>
+                            <div class="skills-column">
+                                <h3><span>Soft Skills</span></h3>
+                                <ul>
+                                    <li>Analytical thinking</li>
+                                    <li>Problem-solving</li>
+                                    <li>Communication skills</li>
+                                    <li>Attention to detail</li>
+                                    <li>Team collaboration</li>
+                                    <li>Time Management</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Jul 2025 - Current</span><br> Data Analyst intern at Cmmg</li>
+                            <li><span>Dec 2024 - Feb 2026</span><br> Data Analyst intern at Capciti</li>
+                            <li><span>Jul 2024 - Oct 2024</span><br> Cybersecurity Learnership at Go Fourth Learning</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Mar 2021 - Dec 2023</span><br> Diploma In Networks Systems at Boston City Campus</li>
+                            <li><span>Jan 2015 - Dec 2020</span><br> Matric at The Glen High School</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!--------Services----------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title"> My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Data Analyst</h2>
+                <p>Transforming raw data into actionable insights through Python, Excel, and advanced visualization techniques to drive business decisions.</p>
+                <a href="#"> learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------Portfolio------------------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        
+        <div class="project-cards">
+            
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-header">
+                    <img src="Images/Project 2.jpg" alt="Sales Analysis Project">
+                </div>
+                <div class="project-body">
+                    <h3>Sales Performance Analysis Project</h3>
+                    <p>A dual-version analysis project using both Excel and Python to extract actionable business insights from a company sales dataset. Applied EDA techniques, pivot tables, and visualizations to uncover regional trends, salesperson performance, and product-level patterns — with strategic bonus recommendations for top performers.</p>
+
+                    
+                     <div style="margin-bottom: 12px;">
+            <p style="font-size: 12px; font-weight: 600; margin-bottom: 6px; opacity: 0.7;">KEY QUESTIONS ANSWERED</p>
+            <ul style="font-size: 13px; padding-left: 16px; margin: 0; line-height: 1.8; opacity: 0.85;">
+                <li>Which region generated the highest total sales?</li>
+                <li>Top 3 salespersons by total revenue</li>
+                <li>Monthly trends per product category</li>
+                <li>Regional differences in units sold vs. revenue</li>
+                <li>Peak month, dominant product and region</li>
+                <li>Bonus recommendations for top performers</li>
+            </ul>
+        </div>
+
+        <div class="tech-tags">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Excel</span>
+            <span class="tech-tag">pandas</span>
+            <span class="tech-tag">Matplotlib</span>
+            <span class="tech-tag">Seaborn</span>
+            <span class="tech-tag">EDA</span>
+        </div>
+                    
+                    <div class="project-links">
+                        <a href="https://github.com/OMWMagwaxaza/Sales_Performance_Data" target="_blank" class="project-btn github-btn">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-header">
+                    <img src="Images/Project 1.jpg" alt="Healthcare Analytics">
+                </div>
+                <div class="project-body">
+                 <h3>HealthTech Analytics Project</h3>
+                 <p>A case study simulating a data analyst role at a healthcare startup. Used SQL within Python to query a relational database of patients, visits, doctors, treatments, and diagnoses — uncovering demographic patterns, departmental diagnosis trends, treatment costs, and visit frequency insights to support data-driven hospital decisions.</p>
+
+
+                    <div style="margin-bottom: 12px;">
+            <p style="font-size: 12px; font-weight: 600; margin-bottom: 6px; opacity: 0.7;"></p>
+            <ul style="font-size: 13px; padding-left: 16px; margin: 0; line-height: 1.8; opacity: 0.85;">
+
+               <p style="font-size: 12px; font-weight: 600; margin-bottom: 6px; opacity: 0.7;">KEY OBJECTIVES</p>
+            <ul style="font-size: 13px; padding-left: 16px; margin: 0; line-height: 1.8; opacity: 0.85;">
+                <li>Patient distribution by city — bar chart</li>
+                <li>Diagnosis trends per department via joins</li>
+                <li>Top 5 patients by total treatment cost</li>
+                <li>Frequent patients (5+ visits) — monthly trend line</li>
+            </ul>
+        </div>
+
+        <div class="tech-tags">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">SQL</span>
+            <span class="tech-tag">SQLite</span>
+            <span class="tech-tag">pandas</span>
+            <span class="tech-tag">Seaborn</span>
+            <span class="tech-tag">Matplotlib</span>
+            <span class="tech-tag">NumPy</span>
+        </div>
+                    
+                    <div class="project-links">
+                        <a href="https://github.com/OMWMagwaxaza/Health-analytics" target="_blank" class="project-btn github-btn">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+                <div class="project-header">
+                    <img src="Images/Project 3.jpg" alt="Revenue Insights">
+                </div>
+                <div class="project-body">
+                    <h3>>NYC Flights Delay Analysis (SQL in R)</h3>
+                    <p>An advanced data science project integrating SQL queries within the R environment to analyze over 300,000 flight records from the 2013 NYC flights dataset. Focused on improving airline operations by extracting insights on departure delays, carrier performance, destination trends, and on-time rates — all via SQL executed inside R using <code>sqldf</code>.</p>
+
+                    
+        <div style="margin-bottom: 12px;">
+            <p style="font-size: 12px; font-weight: 600; margin-bottom: 6px; opacity: 0.7;">DATASET</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px;">
+                <span style="font-size: 11px; padding: 3px 8px; border-radius: 6px; background: #ede9fe; color: #4c1d95; border: 0.5px solid #c4b5fd; font-weight: 500;">nycflights13::flights</span>
+                <span style="font-size: 11px; padding: 3px 8px; border-radius: 6px; background: #ede9fe; color: #4c1d95; border: 0.5px solid #c4b5fd; font-weight: 500;">300,000+ records</span>
+                <span style="font-size: 11px; padding: 3px 8px; border-radius: 6px; background: #ede9fe; color: #4c1d95; border: 0.5px solid #c4b5fd; font-weight: 500;">NYC departures 2013</span>
+            </div>
+            <p style="font-size: 12px; font-weight: 600; margin-bottom: 6px; opacity: 0.7;">KEY QUERIES ANSWERED</p>
+            <ul style="font-size: 13px; padding-left: 16px; margin: 0; line-height: 1.8; opacity: 0.85;">
+                <li>Top 5 flights with the longest departure delays</li>
+                <li>Average arrival delay per airline — worst performers ranked</li>
+                <li>Top 3 destinations by highest average arrival delay</li>
+                <li>Average flight distance per origin airport</li>
+                <li>Daily flight count and average delay throughout January</li>
+                <li>On-time performance % per airline (arrival delay ≤ 0)</li>
+                <li>Flights delayed 60+ mins traveling over 1,000 miles</li>
+            </ul>
+        </div>
+
+        <div class="tech-tags">
+            <span class="tech-tag">R</span>
+            <span class="tech-tag">SQL</span>
+            <span class="tech-tag">SQLite</span>
+            <span class="tech-tag">sqldf</span>
+            <span class="tech-tag">nycflights13</span>
+            <span class="tech-tag">RStudio</span>
+        </div>
+                    
+                    <div class="project-links">
+                        <a href="https://github.com/OMWMagwaxaza/SQL_In_R" target="_blank" class="project-btn github-btn">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!---------Certifications Section------------------------ -->
+<div id="certifications">
+    <div class="container">
+        <h1 class="sub-title">My Certifications</h1>
+        <p class="cert-description">Documented achievements showcasing my continuous learning journey in data analysis and professional development.</p>
+        
+        <!-- Filter Buttons -->
+        <div class="cert-filters">
+            <button class="filter-btn active" onclick="filterCerts('microsoft')">Microsoft</button>
+            <button class="filter-btn" onclick="filterCerts('professional')">Professional Certifications</button>
+            <button class="filter-btn" onclick="filterCerts('comptia')">CompTIA</button>
+            <button class="filter-btn" onclick="filterCerts('ccna')">CCNA</button>
+        </div>
+        
+        <div class="cert-list">
+            
+            <!-- Certificate 1 - Microsoft -->
+             <div class="cert-card" data-category="microsoft">
+                <div class="cert-image">
+                    <img src="CV & Certificates/Microsoft Azure Data Fundamentals Omphile Magwaxaza_page-0001.jpg" alt="Excel Certificate">
+                    <div class="cert-overlay">
+                        <a href="CV & Certificates/Microsoft Azure Data Fundamentals Omphile Magwaxaza_page-0001.pdf" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="cert-info">
+                    <h3>Microsoft Azure Data Fundamentals (DP-900)</h3>
+                    <p>Built a solid understanding of fundamental data concepts and cloud-based data solutions within Microsoft Azure. Gained knowledge of relational and non-relational data, data workloads, and analytics processes.</p>
+                    <span class="cert-date">Issued: 26 March 2026</span>
+                </div>
+            </div>
+          
+
+            <!-- Certificate 2 - Microsoft -->
+               <div class="cert-card" data-category="microsoft">
+                <div class="cert-image">
+                    <img src="CV & Certificates/OMW Magwaxaza Azure Fundamentals_page-0001.jpg" alt="Azure Fundamentals Certificate">
+                    <div class="cert-overlay">
+                        <a href="CV & Certificates/OMW Magwaxaza Azure Fundamentals.pdf" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="cert-info">
+                    <h3>Microsoft Azure Fundamentals (AZ-900)</h3>
+                    <p>Demonstrated foundational knowledge of cloud services and how those services are provided with Microsoft Azure, including cloud concepts, core Azure services, security, privacy, compliance, and pricing.</p>
+                    <span class="cert-date">Issued: September 2024</span>
+                </div>
+            </div>
+            
+
+            <!-- Certificate 3 - Professional Certifications -->
+            <div class="cert-card" data-category="professional" style="display: none;">
+                <div class="cert-image">
+                    <img src="CV & Certificates/ALX- Data Analytics Certificate Omphile Magwaxaza _page-0001.jpg" alt="ALX Certificate">
+                    <div class="cert-overlay">
+                        <a href="CV & Certificates/ALX- Data Analytics Certificate Omphile Magwaxaza .pdf" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="cert-info">
+                    <h3>ALX Data Analytics Program</h3>
+                    <p>Completed intensive data analytics training program covering Python, SQL, data visualization, statistical analysis, and professional development skills for career advancement in data-driven roles.</p>
+                    <span class="cert-date">Issued: 12 February 2026</span>
+                </div>
+            </div>
+
+            <!-- Certificate 5 - CompTIA -->
+            <div class="cert-card" data-category="comptia" style="display: none;">
+                <div class="cert-image">
+                    <img src="CV & Certificates/CompTIA Network+ ce certificate_page-0001.jpg" alt="CompTIA Network+ Certificate">
+                    <div class="cert-overlay">
+                        <a href="CV & Certificates/CompTIA Network+ ce certificate.pdf" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="cert-info">
+                    <h3>CompTIA Network+</h3>
+                    <p>Earned certification validating essential network troubleshooting, configuration, and management skills. Covers network technologies, installation, media and topologies, and network security fundamentals.</p>
+                    <span class="cert-date">Issued: 11 March 2024</span>
+                </div>
+            </div>
+
+             <!-- Certificate 5 - CompTIA -->
+            <div class="cert-card" data-category="comptia" style="display: none;">
+                <div class="cert-image">
+                    <img src="CV & Certificates/CompTIA Project+ certificate_page-0001.jpg" alt="CompTIA Project+ Certificate">
+                    <div class="cert-overlay">
+                        <a href="CV & Certificates/CompTIA Project+ certificate.pdf" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="cert-info">
+                    <h3>CompTIA Project+</h3>
+                    <p>Earned certification validating essential network troubleshooting, configuration, and management skills. Covers network technologies, installation, media and topologies, and network security fundamentals.</p>
+                    <span class="cert-date">Issued: 22 April 2024</span>
+                </div>
+            </div>
+
+            <!-- Certificate 6 - CCNA -->
+            <div class="cert-card" data-category="ccna" style="display: none;">
+                <div class="cert-image">
+                    <img src="CV & Certificates/Cisco Certified Network Associate Cybersecurity certificate_page-0001.jpg" alt="CCNA Certificate">
+                    <div class="cert-overlay">
+                        <a href="CV & Certificates/Cisco Certified Network Associate Cybersecurity certificate.pdf" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="cert-info">
+                    <h3>CCNA - Cisco Certified Network Associate</h3>
+                    <p>Achieved certification in networking fundamentals, including IP addressing, routing protocols, network security, and troubleshooting. Demonstrated competency in configuring and managing Cisco network devices.</p>
+                    <span class="cert-date">Issued: 11 September 2024</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!---------Contact Form------------------------ -->
+<div id="contact">
+    <div class="container">
+        <!-- Centered Contact Header -->
+        <div class="contact-header">
+            <h1 class="sub-title">Contact Me</h1>
+            <p class="contact-subtitle">I am actively seeking opportunities where I can contribute my skills, learn from experienced professionals, and grow in my career. Please feel free to reach out.</p>
+        </div>
+        
+        <div class="row">
+            <!-- Contact Info on LEFT -->
+            <div class="contact-left">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Email</h3>
+                            <p><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="6b060a0c2b0c060a020745080406">magwaxazaomphile@gmail.com</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Phone</h3>
+                            <p>0695787850</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Location</h3>
+                            <p>Pretoria, South Africa</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>LinkedIn</h3>
+                            <p><a href="https://linkedin.com/in/omphile-magwaxaza-7a06302aa" target="_blank">Omphile Magwaxaza</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>GitHub</h3>
+                            <p><a href="https://github.com/OMWMagwaxaza" target="_blank">Omphile Magwaxaza</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Contact Form on RIGHT -->
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <div class="form-group">
+                        <label>Full Name *</label>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Email Address *</label>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Message *</label>
+                        <textarea name="Messages" rows="6" placeholder="Your Message" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn2">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Copyright Footer -->
+<div class="copyright">
+    <p>copyright @Omphile Mogomotsi Wandile Magwaxaza <i class="fas fa-heart"></i></p>
+</div>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for (var tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (var tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-250px";
+    }
+</script>
+
+<script>
+    // Certificate filter function
+    function filterCerts(category) {
+        const certCards = document.querySelectorAll('.cert-card');
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        
+        // Remove active class from all buttons
+        filterBtns.forEach(btn => btn.classList.remove('active'));
+        
+        // Add active class to clicked button
+        event.target.classList.add('active');
+        
+        // Filter certificates by category
+        certCards.forEach(card => {
+            if (card.getAttribute('data-category') === category) {
+                card.style.display = 'block';
+            } else {
+                card.style.display = 'none';
+            }
+        });
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby9XQQhktHPub2fNSjD_h0_CpSr6h562aNyiH_-083wHqmCYlQC6dAS9K_9uzTK8Eoa/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully!"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+</body>
+</html>
